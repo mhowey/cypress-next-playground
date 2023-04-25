@@ -19,9 +19,17 @@ a {
   text-decoration: none;
   font-size: 1.2rem;
 }
+p {
+  font-size: 1.3rem;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
+
+input {
+  padding: 10px;
+  font-size: 1.8rem;
 }

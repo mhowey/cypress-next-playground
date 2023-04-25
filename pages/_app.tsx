@@ -1,6 +1,7 @@
-import '@root/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "@root/styles/globals.css";
+import type { AppProps } from "next/app";
 import Header from "../components/Header";
+import Link from "next/link";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -10,5 +11,5 @@ export default function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </main>
     </>
-    )
+  );
 }
