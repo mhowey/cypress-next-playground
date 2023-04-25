@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: lightgreen;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: darkgreen;
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    margin-left: -20px;
+}
