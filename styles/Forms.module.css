@@ -18,6 +18,10 @@
   padding: 15px;
   font-size: 1.7rem;
 }
+.button:hover {
+  cursor: pointer;
+  background-color: powderblue;
+}
 
 .formBlock {
   display: flex;
