@@ -10,9 +10,9 @@ export default function Header() {
           <Link href="/">
             <GrTest className={styles.logo} />
           </Link>{" "}
-          <h2>Cypress Testing</h2>
+          <h2>cypress-testing-v1</h2>
         </div>
-        <h2>NEXT.js Proof of Concept</h2>
+        <h2>NEXT.js Cypress Playground</h2>
       </header>
       <ul className={styles.flexList}>
         <li>
