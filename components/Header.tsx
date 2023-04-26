@@ -14,20 +14,22 @@ export default function Header() {
         </div>
         <h2>NEXT.js Cypress Playground</h2>
       </header>
-      <ul className={styles.flexList}>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/testing/charts">Charts</Link>
-        </li>
-        <li>
-          <Link href="/testing/photos">Photos</Link>
-        </li>
-        <li>
-          <Link href="/testing/forms">Forms</Link>
-        </li>
-      </ul>
+      <nav>
+        <ul className={styles.flexList}>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/testing/charts">Charts</Link>
+          </li>
+          <li>
+            <Link href="/testing/photos">Photos</Link>
+          </li>
+          <li>
+            <Link href="/testing/forms">Forms</Link>
+          </li>
+        </ul>
+      </nav>
     </>
   );
 }
