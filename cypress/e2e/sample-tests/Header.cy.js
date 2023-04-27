@@ -56,4 +56,9 @@ describe("The navigation", () => {
     cy.get("nav").contains("Forms").click();
     cy.url().should("include", "/forms");
   })
+
+  it("should navigate back to the main page", () => {
+    cy.get("nav").contains("Home").click();
+    cy.url().should("include", "/");
+  })
 })
